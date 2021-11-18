@@ -112,6 +112,8 @@ function Raffle() {
                     </div>
                 </div>
             </div>
+
+            
             <Link to="#" onClick={handleShow} className="float">
                 <i className="bx bxs-coupon my-float"></i>
             </Link>
