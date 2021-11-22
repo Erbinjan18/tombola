@@ -8,6 +8,8 @@ import Prize from '../admin/prize-page/Prize';
 import UpdatePrize from '../admin/prize-page/UpdatePrize';
 import Participant from '../admin/participants-page/Participant';
 
+
+
 const routes = [
     {path: '/admin', exact: true, name: 'Admin'},
     {path: '/admin/dashboard', exact: true, name: 'Dashboard', component: Dashboard},
@@ -18,5 +20,8 @@ const routes = [
     {path: '/admin/prize', exact: true, name: 'Prize', component: Prize},
     {path: '/admin/prize/updatesprize', exact: true, name: 'UpdatePrize', component: UpdatePrize},
     {path: '/admin/participant', exact: true, name: 'Participant', component: Participant},
+
+   
+    
 ];
 export default routes;

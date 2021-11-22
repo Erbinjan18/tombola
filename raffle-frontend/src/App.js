@@ -7,6 +7,9 @@ import BuyRaffle from './public-page/BuyRaffle';
 import Register from './Auth/Register';
 // import Dashboard from './admin/Dashboard';
 
+/*USER IMPORT FILES*/
+import RaffleList from './user/RaffleList';
+
 function App() {
   return (
     <div className="App">
@@ -15,13 +18,18 @@ function App() {
 
         <Route exact path="/" component={Home} />
 
-        {/* -----------public page ------------ */}
+        {/* -----------PUBLIC ROUTES------------ */}
         <Route exact path="/buyraffle" component={BuyRaffle} />
         <Route exact path="/signup" component={Register} />
+
 
         <Route path = '/admin' name="Admin" render={(props) => <MasterLayout {...props} />} />
         <Route exact path="/login" component={Login} />
         {/* <Route exact path = '/admin/dashboard' component={Dashboard}/> */}
+
+
+        {/* -------------USER ROUTES------------- */}
+        <Route exact path="/rafflelist" component={RaffleList} />
 
       </Switch>
       </Router>
