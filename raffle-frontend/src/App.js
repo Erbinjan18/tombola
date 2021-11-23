@@ -7,8 +7,10 @@ import BuyRaffle from './public-page/BuyRaffle';
 import Register from './Auth/Register';
 // import Dashboard from './admin/Dashboard';
 
-/*USER IMPORT FILES*/
-import RaffleList from './user/RaffleList';
+/*PUBLIC IMPORT FILES*/
+import ViewPrize from './public-page/ViewPrize';
+import PrizeDetail from './public-page/PrizeDetail';
+import RaffleList from './public-page/RaffleList';
 
 function App() {
   return (
@@ -21,15 +23,16 @@ function App() {
         {/* -----------PUBLIC ROUTES------------ */}
         <Route exact path="/buyraffle" component={BuyRaffle} />
         <Route exact path="/signup" component={Register} />
+        <Route exact path="/viewprize" component={ViewPrize} />
+        <Route exact path="/prizedetail" component={PrizeDetail} />
+        <Route exact path="/rafflelist" component={RaffleList} />
+
 
 
         <Route path = '/admin' name="Admin" render={(props) => <MasterLayout {...props} />} />
         <Route exact path="/login" component={Login} />
         {/* <Route exact path = '/admin/dashboard' component={Dashboard}/> */}
-
-
-        {/* -------------USER ROUTES------------- */}
-        <Route exact path="/rafflelist" component={RaffleList} />
+        
 
       </Switch>
       </Router>

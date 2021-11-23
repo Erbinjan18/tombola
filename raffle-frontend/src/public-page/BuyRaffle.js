@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Wave from '../assets/img/wave1.png';
 import Navbar from './home-components/Navbar';
 
@@ -13,6 +13,7 @@ function BuyRaffle() {
             </section>
             <div className="buy-raffle">
                 <div className="container">
+                <h2 className="title-style">Prize Categories</h2>
                     <div className="row">
                         <div className="col-md-4">
                             <div className="card card-blog">
@@ -22,19 +23,10 @@ function BuyRaffle() {
                                 </div>
                                 <div className="table">
                                     <h4 className="card-caption">
-                                        <Link to="#">Raffle 1</Link>
+                                        <Link to="#">Gadgets</Link>
                                     </h4>
-                                    <br />
-                                    <p className="card-description">
-                                        <br />
-                                        Prize: Mouse
-                                    </p>
-                                    <p className="card-description">
-                                        <br />
-                                        Ticket Price: 500php
-                                    </p>
                                     <div className="ftr text-center">
-                                        <Link to="/login" className="btn btn-primary btn-sm">Buy Ticket</Link>
+                                        <Link to="/viewprize" className="btn btn-primary btn-sm">View</Link>
                                     </div>
                                 </div>
                             </div>
@@ -47,19 +39,10 @@ function BuyRaffle() {
                                 </div>
                                 <div className="table">
                                     <h4 className="card-caption">
-                                        <Link to="#">Raffle 2</Link>
+                                        <Link to="#">Mobile Phones</Link>
                                     </h4>
-                                    <br />
-                                    <p className="card-description">
-                                        <br />
-                                        Prize: Mouse
-                                    </p>
-                                    <p className="card-description">
-                                        <br />
-                                        Ticket Price: 500php
-                                    </p>
                                     <div className="ftr text-center">
-                                        <Link to="/login" className="btn btn-primary btn-sm">Buy Ticket</Link>
+                                        <Link to="/viewprize" className="btn btn-primary btn-sm">View</Link>
                                     </div>
                                 </div>
                             </div>
@@ -72,19 +55,10 @@ function BuyRaffle() {
                                 </div>
                                 <div className="table">
                                     <h4 className="card-caption">
-                                        <Link to="#">Raffle 3</Link>
+                                        <Link to="#">Laptops</Link>
                                     </h4>
-                                    <br />
-                                    <p className="card-description">
-                                        <br />
-                                        Prize: Mouse
-                                    </p>
-                                    <p className="card-description">
-                                        <br />
-                                        Ticket Price: 500php
-                                    </p>
                                     <div className="ftr text-center">
-                                        <Link to="#" className="btn btn-primary btn-sm">Buy Ticket</Link>
+                                        <Link to="/viewprize" className="btn btn-primary btn-sm">View</Link>
                                     </div>
                                 </div>
                             </div>

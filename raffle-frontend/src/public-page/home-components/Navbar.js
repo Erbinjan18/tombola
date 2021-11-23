@@ -20,6 +20,9 @@ function Navbar() {
                                 <Link className="nav-link" aria-current="page" to="/">Home</Link>
                             </li>
                             <li className="nav-item">
+                                <Link className="nav-link" aria-current="page" to="/rafflelist">My Raffle List</Link>
+                            </li>
+                            <li className="nav-item">
                                 <Link className="nav-link" to="#">About Us</Link>
                             </li>
                             <li className="nav-item">
