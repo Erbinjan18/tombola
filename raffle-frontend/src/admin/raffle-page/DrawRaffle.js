@@ -18,12 +18,12 @@ function DrawRaffle() {
     const [mustSpin, setMustSpin] = useState(false);
     const [prizeNumber, setPrizeNumber] = useState(0);
 
-    const handleSpinClick = () => {
-        const newPrizeNumber = Math.floor(Math.random() * data.length)
-        setPrizeNumber(newPrizeNumber)
-        setMustSpin(true)
-    }
-
+    // const handleSpinClick = () => {
+    //     const newPrizeNumber = Math.floor(Math.random() * data.length)
+    //     setPrizeNumber(newPrizeNumber)
+    //     setMustSpin(true)
+    // }
+    
     return (
         <div>
             <div className="bgcolor raffle">
@@ -31,7 +31,25 @@ function DrawRaffle() {
             </div>
             <div className="container">
                 <div className="row">
-                    <div className="col">
+                    <div className="col-md-6 ">
+                        <h3 className="title-style">
+                            Grand Prize: Lenovo
+                        </h3>
+                        <>
+                            <Wheel
+                                outerBorderColor={"#eeeeee"}
+                                radiusLineColor={"#eeeeee"}
+
+                                mustStartSpinning={mustSpin}
+                                prizeNumber={prizeNumber}
+                                data={data}
+                                backgroundColors={['#3e3e3e', '#df3428']}
+                                textColors={['#ffffff']}
+                            />
+
+                        </>
+                    </div>
+                    {/* <div className="col">
                         <div className="container">
                             <div className="App-header">
                             <Wheel
@@ -55,12 +73,9 @@ function DrawRaffle() {
                                 <h2>Result</h2>
                                 <br/>
                                 <br/>
-                                {/* <h2>CONGRATS    !!</h2>
-                                <br/>
-                                <h3>name</h3> */}
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

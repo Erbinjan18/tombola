@@ -39,7 +39,6 @@ function Login() {
                         </div>
                         <br />
                         <Link to="/admin/dashboard" className="btn btnstyle">Login</Link>
-                        <Link to="/signup">Create Account</Link>
                     </form>
                 </div>
             </div>

@@ -24,87 +24,22 @@ function Raffle() {
                                 <div className="ripple-cont"></div>
                             </div>
                             <div className="table">
-                                <h4 className="card-caption">
-                                    <Link to="#">Raffle 1</Link>
-                                </h4>
-                                <br />
-                                <p className="card-description">
+                            <h4 className="card-caption">
+                                        <Link to="#">Raffle Name</Link>
+                                        <p className="subtitle">test description</p>
+                                    </h4>
                                     <br />
-                                    Prize: Mouse
-                                </p>
-                                <p className="card-description">
-                                    <br />
-                                    Ticket Price: 500php
-                                </p>
-                                <p className="card-description">
-                                    <br />
-                                    Number of Participants: 10/50
-                                </p>
+                                    <p className="card-description">
+                                        <br />
+                                        Ticket Price: 500php
+                                    </p>
+                                    <p className="card-description">
+                                        <br />
+                                        Raffle starts: 2021-11-26 08:58:00
+                                    </p>
                                 <div className="ftr text-center">
-                                    <Link to="/admin/raffle/drawraffle" className="btn btn-primary btn-sm">Draw</Link>
+                                    <Link to="/admin/raffle-participants" className="btn btn-primary btn-sm">View</Link>
                                     <Link to="/admin/raffle/updateraffle" className="btn btn-warning btn-sm">Edit</Link>
-                                    <Link to="#" className="btn btn-danger btn-sm">Delete</Link>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className="card card-blog">
-                            <div className="card-image">
-                                <img className="img" alt="" src="https://mdbootstrap.com/img/new/standard/nature/111.jpg" />
-                                <div className="ripple-cont"></div>
-                            </div>
-                            <div className="table">
-                                <h4 className="card-caption">
-                                    <Link to="#">Raffle 2</Link>
-                                </h4>
-                                <br />
-                                <p className="card-description">
-                                    <br />
-                                    Prize: Mouse
-                                </p>
-                                <p className="card-description">
-                                    <br />
-                                    Ticket Price: 500php
-                                </p>
-                                <p className="card-description">
-                                    <br />
-                                    Number of Participants: 10/50
-                                </p>
-                                <div className="ftr text-center">
-                                    <Link to="#" className="btn btn-primary btn-sm">Draw</Link>
-                                    <Link to="#" className="btn btn-warning btn-sm">Edit</Link>
-                                    <Link to="#" className="btn btn-danger btn-sm">Delete</Link>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className="card card-blog">
-                            <div className="card-image">
-                                <img className="img" alt="" src="https://mdbootstrap.com/img/new/standard/nature/111.jpg" />
-                                <div className="ripple-cont"></div>
-                            </div>
-                            <div className="table">
-                                <h4 className="card-caption">
-                                    <Link to="#">Raffle 3</Link>
-                                </h4>
-                                <br />
-                                <p className="card-description">
-                                    <br />
-                                    Prize: Mouse
-                                </p>
-                                <p className="card-description">
-                                    <br />
-                                    Ticket Price: 500php
-                                </p>
-                                <p className="card-description">
-                                    <br />
-                                    Number of Participants: 10/50
-                                </p>
-                                <div className="ftr text-center">
-                                    <Link to="#" className="btn btn-primary btn-sm">Draw</Link>
-                                    <Link to="#" className="btn btn-warning btn-sm">Edit</Link>
                                     <Link to="#" className="btn btn-danger btn-sm">Delete</Link>
                                 </div>
                             </div>

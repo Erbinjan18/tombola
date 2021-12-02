@@ -29,12 +29,12 @@ const Sidebar = () => {
                         <span className="links_name">Participants</span>
                     </Link>
                 </li>
-                <li>
+                {/* <li>
                     <Link to="/admin/prize">
                         <i className='bx bxs-gift' ></i>
                         <span className="links_name">Prizes</span>
                     </Link>
-                </li>
+                </li> */}
                 <li>
                     <Link to="#">
                         <i className='bx bx-history' ></i>

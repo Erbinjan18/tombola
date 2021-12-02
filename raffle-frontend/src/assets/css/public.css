@@ -88,3 +88,11 @@
 .sub-text{
     font-size: 15px;
 }
+
+.subtitle{
+    font-size: 15px;
+    padding-top: 10px;
+    margin-bottom: -10px;
+    font-weight: normal;
+    color: grey;
+}

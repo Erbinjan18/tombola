@@ -14,7 +14,7 @@ function Banner() {
                         <h4 className="paragraph">
                             Buy your tickets now and don't miss the chance to win an awesome prizes !
                         </h4>
-                        <Link to="/buyraffle"><img src={Logobtn} alt="" className="ticket-btn" />Buy Ticket</Link>
+                        <Link to="/raffle"><img src={Logobtn} alt="" className="ticket-btn" />Buy Ticket</Link>
                     </div>
                     <div className="col-md-6">
                         <img src={Gift} alt="" className="img-fluid" />
